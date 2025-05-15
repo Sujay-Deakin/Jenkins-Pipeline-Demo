@@ -75,7 +75,7 @@ pipeline {
         stage('Complete') {
             steps {
                 echo '''
-                Stage 8: complete
+                Stage 8: completion
                 Description: completed pipeline
                 '''
             }
