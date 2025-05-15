@@ -72,6 +72,13 @@ pipeline {
                 '''
             }
         }
-
+        stage('Complete') {
+            steps {
+                echo '''
+                Stage 8: complete
+                Description: completed pipeline
+                '''
+            }
+        }
     }
 }
